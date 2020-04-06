@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Epam Sign In</title>
+        <style>
+            h2{
+                color: #fff;
+                margin-top: 100;
+                padding: 5;
+                background-color: darkcyan;
+            }
+            .inp{
+                margin: 10;
+                padding: 5 10;
+            }
+            .btn{
+                margin: 10;
+                padding: 5 74;
+                color: #fff;
+                background-color:tomato;
+                
+            }
+            .eml{
+                color: darkgray;
+                
+            }
+            .fb{
+                margin: 10;
+                padding: 5 90;
+                color: white;
+                background-color: #3b5998;
+            }
+            .go{
+                margin: 10;
+                padding: 5 90;
+                color: white;
+                background-color: #D44638;
+            }
+            .epam{
+                font-weight: bold;
+                margin: 10;
+                padding: 4 60;
+                color: white;
+                background-color: rgb(250,224, 56);
+            }
+            .tab { 
+                display: inline-block; 
+                margin-left: 30px; 
+            } 
+            a{
+                color: black;
+            }
+            p{
+                color: lightgrey;
+            }
+            body{
+                margin-left: 550;
+                margin-right: 550;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <center>
+                <fieldset>
+                    
+                    <i class="fa fa-envelope"></i><input class="inp" type = "text" name = "email" placeholder = "Email"><x class="eml"></x><br>
+                    <i class="fa fa-lock"></i><input class="inp" type = "password" name = "password" placeholder = "password"><x class="eml"></x><br>
+                    <button class="btn" name="signin">Sign In</button> <br>    
+                    <a href="">forgot password?</a><span class="tab"></span>
+                    <button class="btn" name="reg">Register</button> <br> 
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>OR</legend>
+                    <button class="fb"><i class="fa fa-facebook"></i></button></br>
+                    <button class="go"><i class="fa fa-google"></i></button><br>
+                    <button class="epam">Epam Login</button>
+                </fieldset>
+            </center>
+        </form>
+    </body>
+</html>
